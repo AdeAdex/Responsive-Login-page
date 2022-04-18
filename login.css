@@ -75,12 +75,12 @@ input{
 	padding: 8px 1px 9px 35px;
 }
 input.username_inp{
-	background-image: url("pic/user.png");
+	background-image: url("user.png");
 	background-size: 32px;
     background-repeat: no-repeat;
 }
 input.password_inp{
-	background-image: url("pic/lock-icon.png");
+	background-image: url("lock-icon.png");
 	background-size: 32px;
     background-repeat: no-repeat;
 }
