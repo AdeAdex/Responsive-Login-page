@@ -3,6 +3,14 @@ body{
 	background-image: conic-gradient(from 90deg, red, yellow, green);*/
 	background-image: linear-gradient(to right,skyblue,violet);
 }
+
+@media screen and (max-width: 600px){
+	#main{
+	     width: 100%;
+	     margin-top: 15%;
+	}
+}
+
 #main{
 	margin: auto;
 	margin-top: 5%;
@@ -12,12 +20,7 @@ body{
 	border-radius: 5px;
 	display: grid;
 }
-@media screen and (max-width: 600px){
-	#main{
-		width: 100%;
-		margin-top: 15%;
-	}
-}
+
 .logo{
 	border-radius: 50%;
 	width: 100px;
